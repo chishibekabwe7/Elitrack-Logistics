@@ -1,5 +1,15 @@
 node_modules/
 .env
+.env.*
+!.env.example
+
 client/build/
+client/.cache/
+dist/
+coverage/
+*.tsbuildinfo
 *.log
+npm-debug.log*
+
 .DS_Store
+*:Zone.Identifier
